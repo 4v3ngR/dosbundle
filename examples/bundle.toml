@@ -1,0 +1,13 @@
+name = "screamr2"
+version = "0.1.0"
+target_platform = "linux"
+
+[payload]
+c_drive_dir = "Screamr2"
+startup = "autoexec.bat"
+
+[dosbox]
+config = "dosbox.conf"
+
+[output]
+path = "artifacts/Screamr2-stage"
